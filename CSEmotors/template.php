@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSEmotors</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+
+</head>
+<body>
+
+    <header>
+      <a href="#" class="mainLogo">CSE Motors</a>
+      <a href="#>"><h3 class="account">My account</h3></a>
+        <div class="navigation">
+          <nav>
+            <a class="active" href="#">Home</a>
+            <a href="#">Classic</a>
+            <a href="#">Sports</a>
+            <a href="#">SUV</a>
+            <a href="#">Trucks</a>
+            <a href="#">Used</a>
+          </nav>
+        </div>
+    </header>
+
+    
+<body>
+<footer class="foot">
+  <h5>©2023 CSE 340 App</h5>
+  <h5 id="DateModified"></h5>
+</footer>
+
+</body>
+      
+    <script src="java/script.js"></script>
+    
+  
+  </html>

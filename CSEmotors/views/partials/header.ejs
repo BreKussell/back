@@ -1,0 +1,16 @@
+<!--Will need this eventually-->
+<header>
+    
+        <a href="/" class="mainLogo">CSE Motors</a>
+    
+    <div id="tools">
+        <% if (locals.loggedin) { %>
+            <a href="/account/">Welcome 
+                <%= locals.accountData.account_firstname %>
+            </a> | 
+            <a href="/account/logout">Logout</a>
+        <% } else { %>
+            <a href="/account/login">Login</a>
+        <% } %>
+    </div>
+</header>
